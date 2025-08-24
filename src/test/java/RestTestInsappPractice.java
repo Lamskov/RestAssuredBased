@@ -1,3 +1,6 @@
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -20,6 +23,9 @@ public class RestTestInsappPractice {
 
     }
 
+    @Epic("Users API")
+    @Feature("Get user")
+    @Description("Проверка получения пользователя по id")
     @Test
     public void test() {
 
