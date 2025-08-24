@@ -77,8 +77,6 @@ public class OsagoFlowTest {
                 .shouldBe(visible)
                 .click();
 
-
-
         $x("//input[@test-id='bodyNumberControlName']").setValue("NZE1419116311");
         $x("//input[@name='stsNumberControlName']").setValue("12 31 231321");
         $x("//input[@test-id='stsDateControlName']").setValue("01.01.2012");
