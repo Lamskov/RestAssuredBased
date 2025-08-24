@@ -23,9 +23,9 @@ public class RestTestInsappPractice {
 
     }
 
-    @Epic("Users API")
+/*    @Epic("Users API")
     @Feature("Get user")
-    @Description("Проверка получения пользователя по id")
+    @Description("Проверка получения пользователя по id")*/
     @Test
     public void test() {
 
