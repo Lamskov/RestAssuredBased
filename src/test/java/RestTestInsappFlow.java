@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class RestTestInsappFlow {
     private static final String URL_NEW = "https://test-api.insapp.pro/app/new";
-    private static final String API_KEY = "b90352835097480fa062713bf706f6b1";
+    private static final String API_KEY = "b90352835097480fa062713bf706f6b6";
 
 
     @BeforeAll
