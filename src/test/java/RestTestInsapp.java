@@ -36,6 +36,8 @@ public class RestTestInsapp {
     }
 
 
+
+
     @Test
     public void getAllModels() {
         Map<String, String> body = Map.of("ApiKey", DICT_API_KEY);
