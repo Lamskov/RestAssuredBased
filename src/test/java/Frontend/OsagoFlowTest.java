@@ -64,12 +64,14 @@ public class OsagoFlowTest {
         $$(".dropdown-item").findBy(text("Camry")).click();
 
         $("[id=productionYear]").click();
+        sleep(500); // Ждем открытия списка
         $(".dropdown-menu").shouldBe(visible);
         $$("a.dropdown-item").findBy(text("2011"))
                 .shouldBe(visible)
                 .click();
 
         $("[id=horsePower]").click();
+        sleep(500);
         $(".dropdown-item").shouldBe(visible);
         $$("a.dropdown-item").findBy(text("156"))
                 .shouldBe(visible)
